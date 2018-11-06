@@ -1,0 +1,46 @@
+body{
+    padding: 1% 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+    background-color: aliceblue;
+    font-size: 22px;
+}
+
+.all{
+    min-height: 700px;
+    padding: 10px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 25px;
+}
+
+.menu >div{
+    padding: 1% 2%;
+    font-weight: 550;
+}
+
+.content-body{
+    background-color: #E6D2FC;
+    padding: 1% 2%;
+    min-height: 600px;
+}
+
+.content-title{
+    font-size: 15px;
+    color: #A158C2;
+}
+
+.image-div{
+    max-width: 500px;
+    height: auto;
+    float: right;
+}
+
+#image {
+    width: 100%;
+    height: auto; 
+}
